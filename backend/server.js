@@ -6,7 +6,7 @@ const cors = require('cors');
 const http = require('http');
 
 app.use(cors({
-    origin: 'https://todoapp-plum-five.vercel.app',
+    origin: ['https://todoapp-plum-five.vercel.app]
     credentials: true
 }))
 
