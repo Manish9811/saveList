@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './todo.css';
 import axios from 'axios'
 
-const backendURL = "http://localhost:4000";
+const backendURL = "https://apitodo-black.vercel.app";
 
 function Todo() {
   const [tasks, setTasks] = useState([]);
